@@ -1,0 +1,66 @@
+.card-viewer {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #f9f9f9;
+  }
+  
+  .controls {
+    margin: 10px 0;
+  }
+  
+  .nav-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .nav-button:hover:enabled {
+    background-color: #0056b3;
+  }
+  
+  .progress {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .switch-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .switch-button:hover {
+    background-color: #218838;
+  }
+  
