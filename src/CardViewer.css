@@ -49,18 +49,3 @@
     margin: 10px 0;
   }
   
-  .switch-button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .switch-button:hover {
-    background-color: #218838;
-  }
-  
